@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reportar caso</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+
+</head>
+<body>
+<header>
+
+    <h1>Reportar un caso</h1>
+
+</header>
+    <h2>Formulario de reporte</h2>
+    <p>Aquí se registrarán los reportes de violencia escolar.</p>
+
+<table>
+<tr>
+    <th>Dato</th>
+        <th>Información</th>
+    </tr>
+    <tr>
+
+<form action="/guardar" method="POST">
+
+Nombre:
+<input type="text" name="nombre">
+
+Institución:
+<input type="text" name="institucion">
+
+Tipo de violencia:
+<input type="text" name="tipo">
+
+Descripción:
+<textarea name="descripcion"></textarea>
+
+<button type="submit">
+Enviar reporte
+</button>
+
+</form> 

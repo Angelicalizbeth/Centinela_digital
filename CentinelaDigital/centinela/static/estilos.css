@@ -1,0 +1,51 @@
+body{
+    background:#EAF4FC;
+    font-family:Arial;
+    text-align:center;
+    margin:0;
+    }
+
+header{
+    background:#3F2D86;
+    color:white;
+    padding:20px;
+    }
+
+.inicio img{
+    width:80%;
+    height:250px;
+    margin-top:20px;
+    border-radius:10px;
+    }
+    
+.contenedor{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    }
+
+.tarjeta{
+    background:#F3F0FF;
+    width:220px;
+    margin:20px;
+    padding:15px;
+    border-radius:10px;
+    border:2px solid #3F2DB6;
+    }
+.tarjeta img{
+    width:180px;
+    height:130px;
+    }
+
+button{
+    background:#5C49B8;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    }
+
+button:hover{
+    background:#8E7AE6;
+    }
